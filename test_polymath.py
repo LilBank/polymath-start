@@ -52,3 +52,10 @@ def test_complex_roots():
     assert len(result) == 2, "Should have exactly 2 roots"
     assert (-2 + 4j) in result
     assert (-2 - 4j) in result
+
+def test_leading_coefficient_is_zero():
+    """If leading coefficient is zero there is only one root, or none."""
+    result = quadratic_roots(0, 1, 5.0)  # x + 5
+    assert len(result) == 1, "Should have only 1 root"
+    assert result[0] == -5.0
+
