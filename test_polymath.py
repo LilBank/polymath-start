@@ -52,4 +52,3 @@ def test_complex_roots():
     assert len(result) == 2, "Should have exactly 2 roots"
     assert (-2 + 4j) in result
     assert (-2 - 4j) in result
-
