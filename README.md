@@ -1,4 +1,4 @@
-## Git Branch & Marge Exercise
+## Git Branch & Merge Exercise
 
 ## The Code
 
